@@ -42,11 +42,11 @@ int main(int argc, string argv[])
                     {
                         if (isupper(plaint[j]))
                         {
-                            printf("%c", (((plaint[j] - 65) ) % 26) + 65);
+                            printf("%c", (((plaint[j] - 65) THIS IS WHERE I WOULD USE PUT THE KEY IF I KNEW HOW) % 26) + 65);
                         }
                         else if (islower(plaint[j]))
                         {
-                            printf("%c", (((plaint[j] - 97) ) % 26) + 97);        
+                            printf("%c", (((plaint[j] - 97) THIS IS WHERE I WOULD PUT THE KEY AS WELL ) % 26) + 97);        
                         }
                     }
                     else
